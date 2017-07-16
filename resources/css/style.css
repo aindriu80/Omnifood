@@ -17,3 +17,7 @@ body {
     height: 0;    
     visibility: hidden;
 }
+.footer{
+    margin-bottom: 0px;
+     height: 100px;
+}
