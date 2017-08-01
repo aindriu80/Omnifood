@@ -6,7 +6,7 @@ $(document).ready(function() {
 	    	$('#pagepiling').pagepiling({
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4'],
-			    sectionsColor: ['white', '#bdc3c7', '#2C3E50', '#2c3e50'],
+			    sectionsColor: ['white', '#bdc3c7', '#2C3E50', '#333333'],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
@@ -47,6 +47,6 @@ $(document).ready(function() {
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 53.3497, lng: -6.2604},
-          zoom: 16
+          zoom: 15
         });
       }

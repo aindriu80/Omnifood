@@ -90,7 +90,6 @@ body {
 
 footer {
 
-    bottom: 200px;
     background-color: #333;
     padding: 10px;
     font-size: 80%;
@@ -165,4 +164,23 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+
+.page {
+    width: 80%;
+    margin: 60px auto;
+
+    padding: 60px;
+    -webkit-box-sizing: border-box;
+    /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box;
+    /* <=28 */
+    box-sizing: border-box;
+}
+
+.copy-right {
+    list-style: none;
+    float:none;
+    color: #888;
 }
