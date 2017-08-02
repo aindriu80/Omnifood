@@ -4,6 +4,8 @@ $(document).ready(function() {
 			* Plugin intialization
 			*/
 	    	$('#pagepiling').pagepiling({
+
+                css3: false,
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4'],
 			    sectionsColor: ['white', '#bdc3c7', '#2C3E50', '#333333'],
@@ -21,12 +23,15 @@ $(document).ready(function() {
 			    		$('#pp-nav').addClass('custom');
 			    	}
 			    }
+
+
 			});
 
 
 			/*
 		    * Internal use of the demo website
 		    */
+    /*
 		    $('#showExamples').click(function(e){
 				e.stopPropagation();
 				e.preventDefault();
@@ -36,8 +41,12 @@ $(document).ready(function() {
 			$('html').click(function(){
 				$('#examplesList').hide();
 			});
+    */
 
-
+/* scrolling a section down */
+$('#arrow').click(function () {
+    $.fn.pagepiling.moveSectionDown();
+});
 
 
 	    });
@@ -50,3 +59,5 @@ $(document).ready(function() {
           zoom: 15
         });
       }
+
+
