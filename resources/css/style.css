@@ -163,7 +163,12 @@ footer {
 footer p {
     color: #888;
     text-align: center;
-    margin-top: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    outline: 0;
 }
 
 
@@ -219,10 +224,13 @@ footer p {
     -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
     transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
-#arrow:hover{
-    background: #EC008C;
-}
+
 #arrow:hover span{
     top: 0;
     color: #FFF;
 }
+
+
+/* drinks */
+
+

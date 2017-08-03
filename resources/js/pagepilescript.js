@@ -22,26 +22,16 @@ $(document).ready(function() {
 			    	}else{
 			    		$('#pp-nav').addClass('custom');
 			    	}
+
 			    }
 
 
+
 			});
 
 
-			/*
-		    * Internal use of the demo website
-		    */
-    /*
-		    $('#showExamples').click(function(e){
-				e.stopPropagation();
-				e.preventDefault();
-				$('#examplesList').toggle();
-			});
 
-			$('html').click(function(){
-				$('#examplesList').hide();
-			});
-    */
+
 
 /* scrolling a section down */
 $('#arrow').click(function () {
