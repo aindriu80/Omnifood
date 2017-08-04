@@ -174,14 +174,32 @@ footer p {
 
 .page {
     width: 80%;
-    margin: 60px auto;
+    margin: 50px auto;
 
-    padding: 60px;
+    padding: 0px;
     -webkit-box-sizing: border-box;
     /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box;
     /* <=28 */
     box-sizing: border-box;
+}
+
+.page2 {
+    width: 80%;
+    margin: 80px auto;
+
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box;
+    /* <=28 */
+    box-sizing: border-box;
+}
+.page2 p {
+    font-style: 12px;
+    margin: 20px 0 0 0;
+    line-height: 1.35em;
+
 }
 
 .copy-right {
@@ -232,5 +250,9 @@ footer p {
 
 
 /* drinks */
-
+.header h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
 

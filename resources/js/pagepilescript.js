@@ -11,7 +11,7 @@ $(document).ready(function() {
 			    sectionsColor: ['white', '#bdc3c7', '#2C3E50', '#333333'],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+			   		'tooltips': ['Home', 'Meals', 'Drinks', 'Contact']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
@@ -22,6 +22,9 @@ $(document).ready(function() {
 			    	}else{
 			    		$('#pp-nav').addClass('custom');
 			    	}
+                    if(index>3){
+                        $('#arrow').hide();
+                    }
 
 			    }
 
